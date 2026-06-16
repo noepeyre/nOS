@@ -269,9 +269,9 @@ users=[
 ]
 ````
 16 Color Palette
-
-![palette](images/paletteblack.png)
-
+![palette](colorpalette.png)
+![palette](paletteblack.png)
+![palette](palettewhite.png)
 ### Logo and Banner
 Edit resources.txt to change ASCII art:
 ````bash
