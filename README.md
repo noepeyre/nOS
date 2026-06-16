@@ -8,7 +8,7 @@ A minimalist terminal OS simulator written in Python, featuring a virtual file s
 [![Status: Actively Developed](https://img.shields.io/badge/Status-Actively%20Developed-green.svg)](https://github.com/NoePeyre/nOS)
 
 ![nOS](nos.png)
-screenshot of nOS, heavily customized
+*screenshot of nOS, heavily customized, with custom neofetch logo*
 
 ---
 
@@ -69,6 +69,7 @@ nOS is educational, modular, and designed for terminal enthusiasts who want to s
 ## Installation
 
 ![booting](boot.png)
+*nOS booting*
 
 ### Prerequisites
 ► Python 3.8+
@@ -203,6 +204,7 @@ nOS allows multiple instances to communicate with each other (swarm mode).
 Each instance is an independent system with its own config.txt and resources.txt.
 
 ![swarm](swarm.png)
+*nOS swarm distribution working together, each instance is customized*
 
 ### Connection Workflow
 
@@ -292,6 +294,7 @@ end
 ### Critical Bugs
 
 ![bios](bios.png)
+*nOS's bios menu*
 
 Issue | Description | Status | Priority
 ------ | ----------- | ------ | --------
