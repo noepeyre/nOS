@@ -216,7 +216,9 @@ From sys0:
 
 In sys1:
 
-```bash incoming connection request from sys0. would you like to accept (Y/n)? Y ````
+```bash
+incoming connection request from sys0. would you like to accept (Y/n)? Y 
+````
 
 If Y: Displays "request accepted" in sys1 and "exit code 0: connection successful" in sys0
 If N: Displays "denied" in sys1 and "exit code 1: denied" in sys0
