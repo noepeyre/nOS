@@ -7,6 +7,9 @@ A minimalist terminal OS simulator written in Python, featuring a virtual file s
 [![GitHub Issues](https://img.shields.io/github/issues/NoePeyre/nOS)](https://github.com/NoePeyre/nOS/issues)
 [![Status: Actively Developed](https://img.shields.io/badge/Status-Actively%20Developed-green.svg)](https://github.com/NoePeyre/nOS)
 
+![nOS](nOS.png)
+screenshot of nOS, heavily customized
+
 ---
 
 ► Table of Contents
