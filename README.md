@@ -234,8 +234,8 @@ msg Hello sys1!
 ````
 
 Disconnect:
-
-```bash disconnect ````
+```bash
+disconnect ```
 
 ## Features to Implement:
 
