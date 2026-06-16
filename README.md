@@ -3,7 +3,7 @@ A minimalist terminal OS simulator written in Python, featuring a virtual file s
 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/NoePeyre/nOS?style=flat&label"stars")](https://github.com/NoePeyre/nOS/)
+[![GitHub Stars](https://img.shields.io/github/stars/<user>)](https://github.com/NoePeyre/)
 [![GitHub Issues](https://img.shields.io/github/issues/NoePeyre/nOS)](https://github.com/NoePeyre/nOS/issues)
 [![Status: Actively Developed](https://img.shields.io/badge/Status-Actively%20Developed-green.svg)](https://github.com/NoePeyre/nOS)
 
