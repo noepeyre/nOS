@@ -44,27 +44,22 @@ nOS is educational, modular, and designed for terminal enthusiasts who want to s
 ### Implemented
    Category | Features |
  |----------|----------|
- | Boot | BIOS animation, Braille spinner, simulated logs, boot screen |
- | Configuration | Auto-generated config.txt, 16-color themes, multiple users |
+ | Configuration | Auto-generated config.txt, 16-color themes, multiple users, nOS installer |
  | Authentication | Login system (su, login), user management (adduser), sudo permissions |
  | Shell | Custom prompt, command history, path autocompletion |
- | File System | cd, ls, mkdir, rm, rmdir, copy, cut, paste, nano |
+ | File System | cd, ls, mkdir, rm, rmdir, copy, cut, paste |
+ | Software | Full nano recreation |
  | Execution | Run Python scripts (./file.py) |
- | Communication | connect, disconnect, msg (swarm mode) |
+ | Communication | connect, disconnect, msg, file transfer (swarm mode) |
  | UI | Customizable colors, ASCII art, neofetch display |
 
 ### In Development / To Fix
  | Issue | Description | Status | Priority |
  |-------|-------------|--------|----------|
- | Incomplete background | Background disappears after 10 lines and behind ":" in neofetch | ⚠ Unfixed | ★★★★ |
- | Reboot with black background | Reboot shows black background instead of white | ⚠ Unfixed | ★★★ |
- | Missing cd .. | cd .. and cd ../.. not implemented | ⏳ Planned | ★★★★ |
- | ls black lines | ls command leaves black line artifacts | ⚠ Unfixed | ★★★ |
- | Connection timeout | Connection only works after 20s timeout | ⏳ Planned | ★★ |
- | Sudo commands not marked | Sudo-only commands not shown as unavailable | ⚠ Unfixed | ★★ |
- | File transfer | File transfer between systems not implemented | ⏳ Planned | ★★★ |
- | Swarm prompt | Show user@sysX:/> instead of user@nOS:/> in swarm mode | ⏳ Planned | ★★★ |
- | Theme inheritance | Inherit colors from connected system | ⏳ Planned | ★★ |
+ | Connection timeout | Connection only works after 20s timeout | ⏳ Planned | ★★★★ |
+ | Visual artifacts | Screen flicker and cursor flickering | ⏳ Planned | ★★★ |
+ | Sudo commands not marked | Sudo-only commands not shown as unavailable | X Unplanned | ★ |
+ | File transfer | File hosting between systems not implemented | ⏳ Planned | ★ |
 
 ---
 
