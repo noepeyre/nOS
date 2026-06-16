@@ -75,15 +75,7 @@ pip install colorama
 git clone https://github.com/NoePeyre/nOS.git
 cd nOS
 
-# Standard version (sys0)
-python sys0/sys.py
-
-# Swarm mode (4 instances)
-# Open 4 terminals and run in each:
-python sys0/sys.py  # Terminal 1
-python sys1/sys.py  # Terminal 2
-python sys2/sys.py  # Terminal 3
-python sys3/sys.py  # Terminal 4
+python sys/sys.py
 ```
 ## Usage
 
