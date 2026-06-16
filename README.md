@@ -1,5 +1,5 @@
-# **nOS 🖥️**
-*Un mini-OS simulé en terminal, écrit en Python, avec système de fichiers virtuel et communication multi-instances.*
+# nOS
+A minimalist terminal OS simulator written in Python, featuring a virtual file system and multi-instance communication.
 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,85 +9,94 @@
 
 ---
 
----
-
-## **📌 Table des Matières**
-1. [📖 À propos](#-à-propos)
-2. [✨ Fonctionnalités](#-fonctionnalités)
-3. [📥 Installation](#-installation)
-4. [🚀 Utilisation](#-utilisation)
-5. [💻 Commandes Disponibles](#-commandes-disponibles)
-6. [📁 Système de Fichiers Virtuel](#-système-de-fichiers-virtuel)
-7. [🔗 Communication Multi-Systèmes](#-communication-multi-systèmes)
-8. [🎨 Personnalisation](#-personnalisation)
-9. [🐛 Bugs Connus & Roadmap](#-bugs-connus--roadmap)
-10. [📸 Suggestions de Captures d'Écran](#-suggestions-de-captures-décran)
-11. [🤝 Contribution](#-contribution)
-12. [📜 License](#-license)
+► Table of Contents
+1. [About](#about)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Available Commands](#available-commands)
+6. [Virtual File System](#virtual-file-system)
+7. [Multi-System Communication](#multi-system-communication)
+8. [Customization](#customization)
+9. [Screenshots](#screenshots)
+10. [Known Issues & Roadmap](#known-issues--roadmap)
+11. [Contributing](#contributing)
+12. [License](#license)
 
 ---
 
----
+## About
+nOS is a Python-based terminal OS simulator designed to mimic a lightweight operating system with:
+☑ BIOS boot animation with simulated logs
+☑ User configuration (username, password, colors)
+☑ Neofetch-style login screen with ASCII art
+☑ Interactive shell with command history and autocompletion
+☑ Virtual file system (cd, ls, mkdir, nano, etc.)
+☑ Multi-instance communication (swarm mode)
+☑ User management with sudo permissions
+
+nOS is educational, modular, and designed for terminal enthusiasts who want to simulate a retro OS experience.
 
 ---
 
-## **📖 À propos**
-**nOS** est un **mini-OS simulé en terminal** écrit en Python, conçu pour imiter un système d'exploitation basique avec :
-✅ **Démarrage BIOS** avec animations et logs simulés.
-✅ **Configuration utilisateur** (nom, mot de passe, couleurs).
-✅ **Écran de login** style *neofetch* avec ASCII art.
-✅ **Shell interactif** avec historique des commandes.
-✅ **Système de fichiers virtuel** (`cd`, `ls`, `mkdir`, `nano`, etc.).
-✅ **Communication entre instances** (mode *swarm*).
-✅ **Gestion des utilisateurs** avec permissions *sudo*.
+## Features
 
----
-**Pourquoi nOS ?**
-- **Éducatif** : Comprendre le fonctionnement d'un shell et d'un OS.
-- **Ludique** : Simuler un OS rétro dans ton terminal.
-- **Modulaire** : Personnalisable (couleurs, logo, commandes).
-- **Collaboratif** : Communication entre plusieurs instances nOS.
+### Implemented
+   Category | Features |
+ |----------|----------|
+ | Boot | BIOS animation, Braille spinner, simulated logs, boot screen |
+ | Configuration | Auto-generated config.txt, 16-color themes, multiple users |
+ | Authentication | Login system (su, login), user management (adduser), sudo permissions |
+ | Shell | Custom prompt, command history, path autocompletion |
+ | File System | cd, ls, mkdir, rm, rmdir, copy, cut, paste, nano |
+ | Execution | Run Python scripts (./file.py) |
+ | Communication | connect, disconnect, msg (swarm mode) |
+ | UI | Customizable colors, ASCII art, neofetch display |
 
----
-
----
-
-## **✨ Fonctionnalités**
-
-### **✅ Implémentées**
-   Catégorie | Fonctionnalités |
- |-----------|------------------|
- | **Boot** | Animation BIOS, spinner Braille, logs simulés, écran de démarrage. |
- | **Configuration** | Création de `config.txt`, choix des couleurs (16 thèmes), utilisateurs multiples. |
- | **Authentification** | Système de login (`su`, `login`), gestion des utilisateurs (`adduser`), permissions *sudo*. |
- | **Shell** | Prompt personnalisé, historique des commandes, autocomplétion. |
- | **Fichiers** | `cd`, `ls`, `mkdir`, `rm`, `rmdir`, `copy`, `cut`, `paste`, `nano`. |
- | **Exécution** | Lancement de scripts Python (`./fichier.py`). |
- | **Communication** | `connect`, `disconnect`, `msg` (mode *swarm*). |
- | **UI** | Couleurs personnalisables, ASCII art, *neofetch*. |
-
-### **🚧 En Développement / À Corriger**
- | Problème | Statut | Priorité |
- |----------|--------|----------|
- | Background qui disparaît après 10 lignes | 🐛 Bug | ⭐⭐⭐⭐ |
- | `:` dans neofetch sans background | 🐛 Bug | ⭐⭐⭐⭐ |
- | `reboot` avec background noir au lieu de blanc | 🐛 Bug | ⭐⭐⭐ |
- | `cd ..` et `cd ../..` non implémentés | ⏳ À faire | ⭐⭐⭐⭐ |
- | `ls` crée des lignes noires | 🐛 Bug | ⭐⭐⭐ |
- | Connexion instantanée (pas de timeout) | ⏳ À faire | ⭐⭐ |
- | Héritage du thème lors de la connexion | ⏳ À faire | ⭐⭐ |
- | Transfert de fichiers entre systèmes | ⏳ À faire | ⭐⭐⭐ |
- | Prompt `user@sys0:/>` en mode *swarm* | ⏳ À faire | ⭐⭐⭐ |
- | Affichage des commandes *sudo-only* comme indisponibles | 🐛 Bug | ⭐⭐ |
+### In Development / To Fix
+ | Issue | Description | Status | Priority |
+ |-------|-------------|--------|----------|
+ | Incomplete background | Background disappears after 10 lines and behind ":" in neofetch | ⚠ Unfixed | ★★★★ |
+ | Reboot with black background | Reboot shows black background instead of white | ⚠ Unfixed | ★★★ |
+ | Missing cd .. | cd .. and cd ../.. not implemented | ⏳ Planned | ★★★★ |
+ | ls black lines | ls command leaves black line artifacts | ⚠ Unfixed | ★★★ |
+ | Connection timeout | Connection only works after 20s timeout | ⏳ Planned | ★★ |
+ | Sudo commands not marked | Sudo-only commands not shown as unavailable | ⚠ Unfixed | ★★ |
+ | File transfer | File transfer between systems not implemented | ⏳ Planned | ★★★ |
+ | Swarm prompt | Show user@sysX:/> instead of user@nOS:/> in swarm mode | ⏳ Planned | ★★★ |
+ | Theme inheritance | Inherit colors from connected system | ⏳ Planned | ★★ |
 
 ---
 
----
+## Installation
 
-## **📥 Installation**
+### Prerequisites
+► Python 3.8+
+► colorama (for cross-platform colored output)
+```bash
+pip install colorama
 
-### **📦 Prérequis**
-- **Python 3.8+** ([Télécharger Python](https://www.python.org/downloads/))
-- **`colorama`** (pour les couleurs dans le terminal)
-  ```bash
-  pip install colorama
+### Download and run
+git clone https://github.com/NoePeyre/nOS.git
+cd nOS
+
+# Standard version (sys0)
+python sys0/sys.py
+
+# Swarm mode (4 instances)
+# Open 4 terminals and run in each:
+python sys0/sys.py  # Terminal 1
+python sys1/sys.py  # Terminal 2
+python sys2/sys.py  # Terminal 3
+python sys3/sys.py  # Terminal 4
+
+## Usage
+
+### Available modes
+
+| Mode | Folder | Description | Launch command |
+|------|--------|-------------|----------------|
+| Basic | nOS-x86-64 | Complete sys/ folder | python sys/sys.py |
+| Lightweight | nOS-x86-64-lw | sys.py only | python sys/sys.py |
+| Swarm | nOS-x86-64-swarm | sys0/, sys1/, sys2/, sys3/ (interconnectable), and server tools | launch.bat |
+| Developement | nOS-x86-64-dev | Development version with all resources and 4 instances | python sys/sys.py (x4) |
