@@ -197,7 +197,7 @@ paste /Documents
 nOS allows multiple instances to communicate with each other (swarm mode).
 Each instance is an independent system with its own config.txt and resources.txt.
 
-![palette](swarm.png)
+![swarm](swarm.png)
 
 ### Connection Workflow
 
@@ -285,6 +285,8 @@ end
 
 ## Known Issues & Roadmap
 ### Critical Bugs
+
+![bios](bios.png)
 
 Issue | Description | Status | Priority
 ------ | ----------- | ------ | --------
