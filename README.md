@@ -65,6 +65,8 @@ nOS is educational, modular, and designed for terminal enthusiasts who want to s
 
 ## Installation
 
+![booting](bios.png)
+
 ### Prerequisites
 ► Python 3.8+
 ► colorama (for cross-platform colored output)
