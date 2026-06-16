@@ -24,8 +24,6 @@ A minimalist terminal OS simulator written in Python, featuring a virtual file s
 
 ---
 
-![palette](swarm.png)
-
 ## About
 nOS is a Python-based terminal OS simulator designed to mimic a lightweight operating system with:
 ☑ BIOS boot animation with simulated logs
@@ -205,6 +203,8 @@ paste /Documents
 ## Multi-System Communication
 nOS allows multiple instances to communicate with each other (swarm mode).
 Each instance is an independent system with its own config.txt and resources.txt.
+
+![palette](swarm.png)
 
 ### Connection Workflow
 
