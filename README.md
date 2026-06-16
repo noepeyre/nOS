@@ -177,7 +177,7 @@ nOS includes a virtual file system based in sys/files/:
 ► Security: Cannot escape / (no access to Windows files)
 ► Persistence: Files are saved in sys/files/
 
-![file explorer windows](file.png) ![nOS equivalent](ls.png)
+![file explorer windows](file.png)![nOS equivalent](ls.png)
 
 ### Usage Examples
 
