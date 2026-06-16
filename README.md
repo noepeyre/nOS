@@ -30,13 +30,13 @@ screenshot of nOS, heavily customized
 ## About
 nOS is a Python-based terminal OS simulator designed to mimic a lightweight operating system with:
 
-☑ BIOS boot animation with simulated logs
-☑ User configuration (username, password, colors)
-☑ Neofetch-style login screen with ASCII art
-☑ Interactive shell with command history and autocompletion
-☑ Virtual file system (cd, ls, mkdir, nano, etc.)
-☑ Multi-instance communication (swarm mode)
-☑ User management with sudo permissions
+- BIOS boot animation with simulated logs
+- User configuration (username, password, colors)
+- Neofetch-style login screen with ASCII art
+- Interactive shell with command history and autocompletion
+- Virtual file system (cd, ls, mkdir, nano, etc.)
+- Multi-instance communication (swarm mode)
+- User management with sudo permissions
 
 nOS is educational, modular, and designed for terminal enthusiasts who want to simulate a retro OS experience.
 
