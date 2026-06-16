@@ -75,7 +75,7 @@ nOS is educational, modular, and designed for terminal enthusiasts who want to s
 ► colorama (for cross-platform colored output)
 ```bash
 pip install colorama
-
+```
 ### Download and run
 git clone https://github.com/NoePeyre/nOS.git
 cd nOS
