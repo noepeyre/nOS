@@ -65,7 +65,7 @@ nOS is educational, modular, and designed for terminal enthusiasts who want to s
 
 ## Installation
 
-![booting](bios.png)
+![booting](boot.png)
 
 ### Prerequisites
 ► Python 3.8+
