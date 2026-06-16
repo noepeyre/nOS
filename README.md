@@ -270,7 +270,7 @@ users=[
 ````
 16 Color Palette
 
-img
+
 
 ### Logo and Banner
 Edit resources.txt to change ASCII art:
