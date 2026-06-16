@@ -26,6 +26,7 @@ A minimalist terminal OS simulator written in Python, featuring a virtual file s
 
 ## About
 nOS is a Python-based terminal OS simulator designed to mimic a lightweight operating system with:
+
 ☑ BIOS boot animation with simulated logs
 ☑ User configuration (username, password, colors)
 ☑ Neofetch-style login screen with ASCII art
@@ -268,9 +269,7 @@ users=[
  
 ![palette](colorpalette.png)
  
-![palette](paletteblack.png)
- 
-![palette](palettewhite.png)
+![palette](paletteblack.png) ![palette](palettewhite.png)
  
 ### Logo and Banner
 Edit resources.txt to change ASCII art:
