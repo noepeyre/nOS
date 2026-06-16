@@ -18,10 +18,9 @@ A minimalist terminal OS simulator written in Python, featuring a virtual file s
 6. [Virtual File System](#virtual-file-system)
 7. [Multi-System Communication](#multi-system-communication)
 8. [Customization](#customization)
-9. [Screenshots](#screenshots)
-10. [Known Issues & Roadmap](#known-issues--roadmap)
-11. [Contributing](#contributing)
-12. [License](#license)
+9. [Known Issues & Roadmap](#known-issues--roadmap)
+10. [Contributing](#contributing)
+11. [License](#license)
 
 ---
 
