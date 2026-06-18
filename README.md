@@ -249,7 +249,8 @@ disconnect
 ⏳ File hosting on one server with URLs
 
 ## Customization
-Edit ```bash config.txt ```` to customize nOS:
+Edit ```bash config.txt
+```` to customize nOS:
 ```bash
 # Main user
 username=noe
