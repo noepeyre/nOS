@@ -179,6 +179,8 @@ nOS includes a virtual file system based in sys/files/:
 
 ![file explorer windows](images/file.png)
 *What's happening in Windows*
+
+
 ![nOS equivalent](images/ls.png)
 *What is displayed on nOS*
 
