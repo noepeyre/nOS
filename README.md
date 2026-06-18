@@ -366,7 +366,8 @@ New Feature | Create color themes feature | ★
 
 ### Turing
 
-and yes, its turing complete
+and yes, its turing complete:
+
 copy sys.py in files folder, and in nOS, run:
 ```bash
 ./sys.py
