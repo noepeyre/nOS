@@ -249,8 +249,11 @@ disconnect
 ⏳ File hosting on one server with URLs
 
 ## Customization
-Edit ```bash config.txt
-```` to customize nOS:
+Edit
+```bash
+config.txt
+````
+to customize nOS:
 ```bash
 # Main user
 username=noe
@@ -278,6 +281,7 @@ users=[
     "totaluptime": "4675"
   }
 ]
+
 ````
 16 Color Palette
  
@@ -286,7 +290,11 @@ users=[
 ![palette](paletteblack.png) ![palette](palettewhite.png)
  
 ### Logo and Banner
-Edit resources.txt to change ASCII art:
+Edit 
+```bash
+resources.txt to change ASCII art:
+````
+
 ````bash
 logo
 [your ASCII art here]
