@@ -68,7 +68,7 @@ nOS is educational, modular, and designed for terminal enthusiasts who want to s
 
 ## Installation
 
-![booting](boot.png)
+![booting](images/boot.png)
 *nOS booting*
 
 ### Prerequisites
@@ -177,9 +177,9 @@ nOS includes a virtual file system based in sys/files/:
 ► Security: Cannot escape / (no access to Windows files)
 ► Persistence: Files are saved in sys/files/
 
-![file explorer windows](file.png)
+![file explorer windows](images/file.png)
 *What's happening in Windows*
-![nOS equivalent](ls.png)
+![nOS equivalent](images/ls.png)
 *What is displayed on nOS*
 
 ### Usage Examples
@@ -208,7 +208,7 @@ paste /Documents
 nOS allows multiple instances to communicate with each other (swarm mode).
 Each instance is an independent system with its own config.txt and resources.txt.
 
-![swarm](swarm.png)
+![swarm](images/swarm.png)
 *nOS swarm distribution working together, each instance is customized*
 
 ### Connection Workflow
@@ -285,9 +285,9 @@ users=[
 ````
 16 Color Palette
  
-![palette](colorpalette.png)
+![palette](images/colorpalette.png)
  
-![palette](paletteblack.png) ![palette](palettewhite.png)
+![palette](images/paletteblack.png) ![palette](images/palettewhite.png)
  
 ### Logo and Banner
 Edit
@@ -309,7 +309,7 @@ end
 ## Known Issues & Roadmap
 ### Critical Bugs
 
-![bios](bios.png)
+![bios](images/bios.png)
 *nOS's bios menu*
 
 Issue | Description | Status | Priority
