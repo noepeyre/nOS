@@ -290,10 +290,11 @@ users=[
 ![palette](paletteblack.png) ![palette](palettewhite.png)
  
 ### Logo and Banner
-Edit 
+Edit
 ```bash
-resources.txt to change ASCII art:
+resources.txt
 ````
+to change ASCII art:
 
 ````bash
 logo
@@ -372,5 +373,5 @@ copy sys.py in files folder, and in nOS, run:
 ````
 
 
-License
+## License
 This project is licensed under the MIT License - see LICENSE for details.
