@@ -204,8 +204,7 @@ nano note.txt
 copy note.txt
 paste /Documents
 ````
-### Known Limitations
-✖ only one communication is allowed at the time
+
 
 ## Multi-System Communication
 nOS allows multiple instances to communicate with each other (swarm mode).
@@ -318,7 +317,8 @@ end
 Issue | Description | Status | Priority
 ------ | ----------- | ------ | --------
 Connection timeout | Connection only works after 20s timeout | ⏳ Planned | ★★
-Sudo commands not marked | Sudo-only commands not shown as unavailable | X Not planned | ★★
+Sudo commands not marked | Sudo-only commands not shown as unavailable | X Not planned | ★
+Single connection | Only one connection is allowed at the time | ⏳ In developement | ★★★★
 
 ## Roadmap
 
