@@ -122,7 +122,8 @@ or run launch.cmd
 
 From sys0, connect to sys1:
 
-```bash connect sys1 
+```bash
+connect sys1 
 ````
 
 In sys1, accept the connection with Y
